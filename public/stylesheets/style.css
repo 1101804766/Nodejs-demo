@@ -1,0 +1,48 @@
+blockquote,body,button,caption,dd,div,dl,dt,fieldset,figure,form,h1,h2,h3,h4,h5,h6,hr,html,input,legend,li,menu,ol,p,pre,table,td,textarea,th,ul{margin:0;padding:0}
+address,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+table{border-collapse:collapse;border-spacing:0}
+caption,th{text-align:left;font-weight:400}
+abbr,body,fieldset,html,iframe,img{border:0}
+address,cite,dfn,em,i,var{font-style:normal}
+[hidefocus],summary{outline:0}
+li{list-style:none}
+h1,h2,h3,h4,h5,h6,small{font-size:100%}
+sub,sup{font-size:83%}
+code,kbd,pre,samp{font-family:inherit}
+q:after,q:before{content:none}
+textarea{overflow:auto;resize:none}
+label,summary{cursor:default}
+a,button{cursor:pointer}
+b,em,h1,h2,h3,h4,h5,h6,strong{font-weight:400}
+a,a:hover,del,ins,s,u{text-decoration:none}
+body,button,input,keygen,legend,select,textarea{font:12px/1.14 "Microsoft YaHei",Arial,\5b8b\4f53;color:#333;outline:0}
+a,a:hover{color:#333}
+body,html{background:#fff}
+*{outline:0;-webkit-tap-highlight-color:transparent}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#ddd}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#ddd}
+input::-moz-placeholder,textarea::-moz-placeholder{color:#ddd}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ddd}
+select{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:#fff;color:#333;border:none;outline:0;display:inline-block;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;-webkit-tap-highlight-color:transparent}
+a{-webkit-touch-callout:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent}
+.hide{display:none !important}
+.tc{text-align:center}
+.tl{text-align:left}
+.tr{text-align:right}
+.radius3px{border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.radius5px{border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px}
+.radius8px{border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px}
+.radius10px{border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px}
+.radius12px{border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px}
+.radius24px{border-radius:24px;-webkit-border-radius:24px;-moz-border-radius:24px}
+.box-sizing{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+.icon{display: inline-block;width: 30px;height: 30px;background-image: url(/virtuousyouth/images/icons.png);background-repeat: no-repeat;vertical-align: middle;}
+.dialog{position:fixed;top:50%;left:50%;width:84%;height:164px;margin-left:-42%;margin-top:-82px;background:#fff;padding:20px 5%;box-sizing:border-box;font-size:17px;line-height:24px;z-index:999}
+.btn{border:0;}
+.mask{position:fixed;top:0;bottom:0;width:100%;background:rgba(0,0,0,.6);z-index:99}
+.m-tip{position:fixed;top:50%;width:100%;height:48px;margin-top:-24px;text-align:center;pointer-events:none}
+.m-tip.show{opacity:1;z-index:10}
+.m-tip .tip{display:inline-block;padding:0 15px;background-color:rgba(0,0,0,.6);opacity:1;line-height:48px;color:#fff;border-radius:10px}
+.f-hd{display:none}
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:"."}
+.f-cb,.f-cbli li{zoom:1}

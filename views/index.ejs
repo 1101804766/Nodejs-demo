@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title><%=title%></title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta http-equiv="expires" content="0">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<link rel="stylesheet" href="/stylesheets/style.css" />
+	<style>
+		h2{padding: 10px 0;font-size: 20px;}
+		.list li{line-height: 30px;border-bottom: 1px solid #ececec;}
+		.list li:first{background-color: #ececec;}
+		.list li>span{display: inline-block;width: 24%;text-align: center;}
+	</style>
+</head>
+<body>
+	<h2 class="tc">用户列表</h2>
+	<a href="/user/update">添加用户</a>
+	<ul class="list">
+		<li>
+			<span>编号</span>
+			<span>姓名</span>
+			<span>手机</span>
+			<span>操作</span>
+		</li>
+		<% for (var i = 0, len = userList.length; i < len; i++) {%>
+			<% var user = userList[i]; %>
+			<li>
+				<span><%=user.id%></span>
+				<span><%=user.name%></span>
+				<span><%=user.mobile%></span>
+				<span>
+					<a href="/user/update?id=<%=user.id%>">编辑</a>
+					<a href="/user/del?id=<%=user.id%>">删除</a>
+				</span>
+			</li>
+		<%}%>
+	</ul>
+</body>
+</html>
